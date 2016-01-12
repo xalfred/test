@@ -2,4 +2,5 @@
 # change1
 # change2
 # change3 - adding config folder with 4 files
-# change4 - merge worker
+# change4 - merge master
+# change5 - merge worker

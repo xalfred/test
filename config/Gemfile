@@ -1,0 +1,54 @@
+source 'https://rubygems.org'
+
+
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+
+gem 'mysql2', '0.3.10'
+gem 'rake' #? , '10.0.3'
+gem 'mail'
+gem 'prototype-rails'
+gem 'bartt-ssl_requirement', '~>1.4.0', :require => 'ssl_requirement'
+gem 'acts_as_paranoid', '~>0.4.0'
+gem 'roo'
+gem 'rails_autolink'
+gem 'responds_to_parent' #, :git => 'https://github.com/Gonzih/responds_to_parent.git'
+gem 'will_paginate', '3.0.4'
+ gem "zip-zip", "~> 0.1"
+ gem "rubyzip", "~> 1.0.0"
+
+# for my pc
+#gem 'calendar_date_select', '1.16.2' #, :git => 'https://github.com/paneq/calendar_date_select.git'
+# for CentOs
+gem 'calendar_date_select' , :git => 'https://github.com/paneq/calendar_date_select.git'
+
+gem 'ckeditor'
+# install image magick before next line: http://tecadmin.net/install-imagemagick-on-linux/
+# http://codeofalice.com/code/installing-rmagick-on-windows-7/
+gem 'rmagick' , '2.12.2'
+gem 'pdfkit'
+gem 'paperclip', '~> 3.4.1'
+gem 'rspec-rails', '~>2.14.1'
+gem 'rails', '3.2.8'
+gem 'exception_notification', '3.0.1'
+gem 'quiet_assets'
+
+# Gems used only for assets and not required
+# in production environments by default.
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+  gem 'uglifier'
+end
+
+group :development do
+	gem 'thin'
+	gem 'debugger'
+end
+
+gem 'sqlite3'
+gem 'jquery-rails'
+gem 'axlsx_rails'
+# get my Rails 3 assets to compile faster
+gem 'turbo-sprockets-rails3'
